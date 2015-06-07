@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:id="@+id/main_fragment"
+    tools:context=".MainActivity$PlaceholderFragment"
+    >
+
+
+    <TextView
+        android:text="My Nanodegree Apps!"
+        style="@style/AppTitleStyle"
+        android:gravity="center"
+        android:id="@+id/title_main_textview"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+
+        android:text="Spotify Streamer"
+        style="@style/AppButton"
+        android:gravity="center"
+        android:layout_below="@id/title_main_textview"
+        android:id="@+id/spotifystreamer_main_button"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="onButtonClick" />
+
+
+    <Button
+
+        android:text="Scores App"
+
+        style="@style/AppButton"
+        android:gravity="center"
+        android:id="@+id/scores_main_button"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/spotifystreamer_main_button"
+
+        android:onClick="onButtonClick" />
+    <Button
+
+        android:text="Library App"
+
+        style="@style/AppButton"
+        android:gravity="center"
+        android:id="@+id/library_main_button"
+
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/scores_main_button"
+        android:onClick="onButtonClick" />
+
+    <Button
+
+        android:text="Build It Bigger"
+
+        style="@style/AppButton"
+        android:gravity="center"
+        android:id="@+id/bib_main_button"
+
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/library_main_button"
+        android:onClick="onButtonClick" />
+    <Button
+
+        android:text="XYZ Reader"
+
+        style="@style/AppButton"
+        android:gravity="center"
+        android:id="@+id/xyz_reader_main_button"
+
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bib_main_button"
+        android:onClick="onButtonClick" />
+    <Button
+        style="@style/CapstoneButton"
+        android:gravity="center"
+        android:id="@+id/real_main_button"
+
+        android:text="Capstone: My Real App"
+
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/xyz_reader_main_button"
+        android:onClick="onButtonClick" />
+</RelativeLayout>
